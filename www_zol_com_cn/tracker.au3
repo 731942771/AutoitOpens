@@ -1,31 +1,31 @@
-#Region ;**** ÓÉ AccAu3Wrapper_GUI ´´½¨Ö¸Áî ****
+#Region ;**** ç”± AccAu3Wrapper_GUI åˆ›å»ºæŒ‡ä»¤ ****
 #AccAu3Wrapper_Icon=favicon.ico
-#AccAu3Wrapper_OutFile=ÖĞ¹Ø´åÔÚÏß-Í¶Ó°»úÊı¾İ²É¼¯.exe
+#AccAu3Wrapper_OutFile=ä¸­å…³æ‘åœ¨çº¿-æŠ•å½±æœºæ•°æ®é‡‡é›†.exe
 #AccAu3Wrapper_Compression=4
-#AccAu3Wrapper_Res_Comment=Íş¸ñÁé²©¿Í
+#AccAu3Wrapper_Res_Comment=å¨æ ¼çµåšå®¢
 #AccAu3Wrapper_Res_Description=www.cuiweiyou.com
 #AccAu3Wrapper_Res_Fileversion=8.8.8.8
 #AccAu3Wrapper_Res_ProductVersion=9.9.9.9
 #AccAu3Wrapper_Res_LegalCopyright=vigiles
 #AccAu3Wrapper_Res_Language=2052
 #AccAu3Wrapper_Res_requestedExecutionLevel=None
-#AccAu3Wrapper_Res_Field=OriginalFilename|ÖĞ»Õ½ÌÓı-´ŞÎ¬ÓÑ
-#AccAu3Wrapper_Res_Field=ProductName|ÖĞ»Õ½ÌÓı-´ŞÎ¬ÓÑ
+#AccAu3Wrapper_Res_Field=OriginalFilename|å´”ç»´å‹
+#AccAu3Wrapper_Res_Field=ProductName|å´”ç»´å‹
 #AccAu3Wrapper_Res_Field=ProductVersion|V1.0
-#AccAu3Wrapper_Res_Field=InternalName|ÖĞ»Õ½ÌÓı-´ŞÎ¬ÓÑ
-#AccAu3Wrapper_Res_Field=FileDescription|ÖĞ»Õ½ÌÓı-´ŞÎ¬ÓÑ
-#AccAu3Wrapper_Res_Field=Comments|ÖĞ»Õ½ÌÓı-´ŞÎ¬ÓÑ
+#AccAu3Wrapper_Res_Field=InternalName|å´”ç»´å‹
+#AccAu3Wrapper_Res_Field=FileDescription|å´”ç»´å‹
+#AccAu3Wrapper_Res_Field=Comments|å´”ç»´å‹
 #AccAu3Wrapper_Res_Field=LegalTrademarks|cuiweiyou.com
 #AccAu3Wrapper_Res_Field=CompanyName|cuiweiyou.com
 #AccAu3Wrapper_Run_AU3Check=n
 #Tidy_Parameters=/sfc/rel
 #AccAu3Wrapper_Tidy_Stop_OnError=n
-#EndRegion ;**** ÓÉ AccAu3Wrapper_GUI ´´½¨Ö¸Áî ****
+#EndRegion ;**** ç”± AccAu3Wrapper_GUI åˆ›å»ºæŒ‡ä»¤ ****
 
 ;_ExcelBookNew($fVisible)
-	;´´½¨ĞÂµÄ¹¤×÷±í²¢·µ»Ø¶ÔÏóÊµÀı£¨½Å²½Ö´ĞĞÖĞÊÇ·ñÏÔÊ¾Excel³ÌĞò 0=ºóÌ¨Ö´ĞĞ²»ÏÔÊ¾, 1=ÏÔÊ¾£©
+	;åˆ›å»ºæ–°çš„å·¥ä½œè¡¨å¹¶è¿”å›å¯¹è±¡å®ä¾‹ï¼ˆè„šæ­¥æ‰§è¡Œä¸­æ˜¯å¦æ˜¾ç¤ºExcelç¨‹åº 0=åå°æ‰§è¡Œä¸æ˜¾ç¤º, 1=æ˜¾ç¤ºï¼‰
 ;_ExcelBookOpen($sFilePath[, $fVisible = 1[, $fReadOnly = False[, $sPassword = ""[, $sWritePassword = "")
-	;´ò¿ªÒ»¸öÏÖÓĞµÄ£¨ÒÑ´æÔÚµÄ£©¹¤×÷²¾²¢·µ»ØÆä¶ÔÏó±êÊ¶·û£¨ÎÄ¼şÂ·¾¶£¬Òş²Ø0/ÏÔÊ¾1-Ä¬ÈÏ ²Ù×÷£¬Ö»¶Á-FalseÄ¬ÈÏ£¬ÔÄ¶ÁÃÜÂë-noneÄ¬ÈÏ£¬ĞŞ¸ÄÃÜÂë-noneÄ¬ÈÏ£©
+	;æ‰“å¼€ä¸€ä¸ªç°æœ‰çš„ï¼ˆå·²å­˜åœ¨çš„ï¼‰å·¥ä½œç°¿å¹¶è¿”å›å…¶å¯¹è±¡æ ‡è¯†ç¬¦ï¼ˆæ–‡ä»¶è·¯å¾„ï¼Œéšè—0/æ˜¾ç¤º1-é»˜è®¤ æ“ä½œï¼Œåªè¯»-Falseé»˜è®¤ï¼Œé˜…è¯»å¯†ç -noneé»˜è®¤ï¼Œä¿®æ”¹å¯†ç -noneé»˜è®¤ï¼‰
 ;_ExcelBookAttach
 ;_ExcelBookSave
 ;_ExcelBookSaveAs
@@ -44,13 +44,13 @@
 ;_ExcelRowInsert
 ;_ExcelColumnInsert
 ;_ExcelSheetAddNew($oExcel[, $sName = ""])
-;	´´½¨ĞÂµÄ¹¤×÷±í(_ExcelBookNew()´ò¿ªµÄÒ»¸ö Excel object£¬¹¤×÷±íÃû³Æ)
+;	åˆ›å»ºæ–°çš„å·¥ä½œè¡¨(_ExcelBookNew()æ‰“å¼€çš„ä¸€ä¸ª Excel objectï¼Œå·¥ä½œè¡¨åç§°)
 ;_ExcelSheetDelete($oExcel, $vSheet, $fAlerts = False)
-;	É¾³ıÖ¸¶¨µÄ¹¤×÷±í(_ExcelBookNewµÃµ½µÄÎÄ¼ş£¬¹¤×÷±íÃû³Æ£¬ÊÇ·ñµ¯³ö¾¯¸æ-Ä¬ÈÏFalse)
+;	åˆ é™¤æŒ‡å®šçš„å·¥ä½œè¡¨(_ExcelBookNewå¾—åˆ°çš„æ–‡ä»¶ï¼Œå·¥ä½œè¡¨åç§°ï¼Œæ˜¯å¦å¼¹å‡ºè­¦å‘Š-é»˜è®¤False)
 ;_ExcelSheetNameGet
 ;_ExcelSheetNameSet
 ;_ExcelSheetList
-;	µÃµ½È«²¿µÄ¹¤×÷±íÃû³Æµ½Ò»¸öÊı×é
+;	å¾—åˆ°å…¨éƒ¨çš„å·¥ä½œè¡¨åç§°åˆ°ä¸€ä¸ªæ•°ç»„
 ;_ExcelSheetActivate
 ;_ExcelSheetMove
 ;_ExcelHorizontalAlignSet
@@ -62,52 +62,52 @@
 
 #include <Array.au3>
 #include <ButtonConstants.au3>
-#include <Excel2.au3> ;×Ô¼ºĞŞ¸Ä¹ıµÄµç×Ó±í¸ñ
+#include <Excel2.au3> ;è‡ªå·±ä¿®æ”¹è¿‡çš„ç”µå­è¡¨æ ¼
 #include <File.au3>
 #include <GUIConstantsEx.au3>
 #include <StaticConstants.au3>
 #include <WindowsConstants.au3>
 
 ;------------------------------------------------------------------------------------------------
-Opt("GUIOnEventMode", 1) ; ÇĞ»»µ½ OnEvent Ä£Ê½
+Opt("GUIOnEventMode", 1) ; åˆ‡æ¢åˆ° OnEvent æ¨¡å¼
 
-;------------------------------------------ ÔªÊı¾İ ----------------------------------------------
+;------------------------------------------ å…ƒæ•°æ® ----------------------------------------------
 Global $btnSheets, $btnRows, $btnCollections, $btnCollectionsToXls, $progressState
 Global $sRootPath = @ScriptDir & "\temp", $sFileBrands = @ScriptDir & "\Barand.txt", $sFileBrandArgs = @ScriptDir & "\BarandShowArg.txt", $sFileCollectArgs = @ScriptDir & "\Collection.txt", $sXlsPath = @DesktopDir & "\Results.xls"
 If FileExists ( $sRootPath ) = 0 Then
 	DirCreate ( $sRootPath )
 EndIf
-Global $nTmpStepProess = 0, $nTmpCountProess = 0	; Ä£Äâ¶àÏß³ÌÓÃµ½µÄÊıÖµ±äÁ¿£¬ÓÃÀ´¸üĞÂ½ø¶ÈÌõ
+Global $nTmpStepProess = 0, $nTmpCountProess = 0	; æ¨¡æ‹Ÿå¤šçº¿ç¨‹ç”¨åˆ°çš„æ•°å€¼å˜é‡ï¼Œç”¨æ¥æ›´æ–°è¿›åº¦æ¡
 
-;------------------------------------------ ³õÊ¼»¯ ----------------------------------------------
-Local $hGUI = GUICreate("ÖĞ»Õ½ÌÓı|Íş¸ñÁé|ÖĞ¹Ø´åÔÚÏß-Í¶Ó°»úÊı¾İ²É¼¯ÏµÍ³", 600, 300)
+;------------------------------------------ åˆå§‹åŒ– ----------------------------------------------
+Local $hGUI = GUICreate("å¨æ ¼çµ|ä¸­å…³æ‘åœ¨çº¿-æŠ•å½±æœºæ•°æ®é‡‡é›†ç³»ç»Ÿ", 600, 300)
 	GUISetOnEvent($GUI_EVENT_CLOSE, "GUI_EVENT_CLOSE")
 
-	Local $btnBrands = GUICtrlCreateButton("Æ·ÅÆ×Ü¼¯", 5, 5, 125, 30)
+	Local $btnBrands = GUICtrlCreateButton("å“ç‰Œæ€»é›†", 5, 5, 125, 30)
 		GUICtrlSetOnEvent($btnBrands, "_ShowBrands")
 	
-	$btnSheets = GUICtrlCreateButton("    1.¸ù¾İÆ·ÅÆ´´½¨¹¤×÷±í", 135, 5, 200, 30, $BS_LEFT )
+	$btnSheets = GUICtrlCreateButton("    1.æ ¹æ®å“ç‰Œåˆ›å»ºå·¥ä½œè¡¨", 135, 5, 200, 30, $BS_LEFT )
 		GUICtrlSetOnEvent($btnSheets, "_CreateSheets")
 		
 	
-	Local $btnRowArgs = GUICtrlCreateButton("Õ¹Ê¾²ÎÊı", 5, 40, 125, 30)
+	Local $btnRowArgs = GUICtrlCreateButton("å±•ç¤ºå‚æ•°", 5, 40, 125, 30)
 		GUICtrlSetOnEvent($btnRowArgs, "_ShowArgs")
 
-	$btnRows = GUICtrlCreateButton("    2.ÌîĞ´Æ·ÅÆ²ÎÊıµ½¹¤×÷±í", 135, 40, 200, 30, $BS_LEFT )
+	$btnRows = GUICtrlCreateButton("    2.å¡«å†™å“ç‰Œå‚æ•°åˆ°å·¥ä½œè¡¨", 135, 40, 200, 30, $BS_LEFT )
 		GUICtrlSetOnEvent($btnRows, "_CreateRows")
 		
 	
-	Local $btnCollectArgs = GUICtrlCreateButton("²É¼¯²ÎÊı", 5, 75, 125, 30)
+	Local $btnCollectArgs = GUICtrlCreateButton("é‡‡é›†å‚æ•°", 5, 75, 125, 30)
 		GUICtrlSetOnEvent($btnCollectArgs, "_ShowCollections")
 
-	$btnCollections = GUICtrlCreateButton("    3.²É¼¯Æ·ÅÆÊı¾İ²¢»º´æ", 135, 75, 200, 30, $BS_LEFT )
+	$btnCollections = GUICtrlCreateButton("    3.é‡‡é›†å“ç‰Œæ•°æ®å¹¶ç¼“å­˜", 135, 75, 200, 30, $BS_LEFT )
 		GUICtrlSetOnEvent($btnCollections, "_CreateCollections")
 		
 
-	Local $btnCollectArgs = GUICtrlCreateButton("²é¿´»º´æ½á¹û", 5, 110, 125, 30)
+	Local $btnCollectArgs = GUICtrlCreateButton("æŸ¥çœ‹ç¼“å­˜ç»“æœ", 5, 110, 125, 30)
 		GUICtrlSetOnEvent($btnCollectArgs, "_ShowCache")
 
-	$btnCollectionsToXls = GUICtrlCreateButton("    4.±£´æ»º´æÊı¾İµ½xlsÎÄ¼ş", 135, 110, 200, 30, $BS_LEFT )
+	$btnCollectionsToXls = GUICtrlCreateButton("    4.ä¿å­˜ç¼“å­˜æ•°æ®åˆ°xlsæ–‡ä»¶", 135, 110, 200, 30, $BS_LEFT )
 		GUICtrlSetOnEvent($btnCollectionsToXls, "_WriteCaches")
 		
 	$progressState = GUICtrlCreateProgress ( 5, 150, 330, 10 )
@@ -119,7 +119,7 @@ GUICtrlSetState($btnRows, $GUI_DISABLE)
 GUICtrlSetState($btnCollections, $GUI_DISABLE)
 GUICtrlSetState($btnCollectionsToXls, $GUI_DISABLE)
 
-;------------------------------------------ ´°ÌåÎ¬³Ö ---------------------------------------------
+;------------------------------------------ çª—ä½“ç»´æŒ ---------------------------------------------
 While 1
     Sleep(200)
 WEnd
@@ -128,7 +128,7 @@ Func GUI_EVENT_CLOSE()
     Exit
 EndFunc
 
-;----------------------------------------- 1.´´½¨¹¤×÷±í --------------------------------------------
+;----------------------------------------- 1.åˆ›å»ºå·¥ä½œè¡¨ --------------------------------------------
 Func _CreateSheets()
 	
 	GUICtrlSetState($btnSheets, $GUI_DISABLE)
@@ -136,29 +136,29 @@ Func _CreateSheets()
 	GUICtrlSetState($progressState, $GUI_SHOW )
 	GUICtrlSetData($progressState, 1)
 	
-	Local $arrayBrand ; Æ·ÅÆ¼¯ºÏ¡£¸ñÊ½ °®ÆÕÉú ¡£Ã¿ĞĞÒ»¸öÆ·ÅÆÃû´Ê
-	_FileReadToArray ( $sFileBrands, $arrayBrand) ; ¶ÁÈ¡"Æ·ÅÆ"ÎÄ¼şÄÚÈİµ½Êı×é
-	_ArrayDelete ( $arrayBrand, 0 ) ; É¾³ıÊı×éµÄÖ¸¶¨ÔªËØ£¬ÒÔ¹©ÏÂÃæÅÅĞòÊ¹ÓÃ¡£0Ë÷Òı±£´æÓĞĞ§ÔªËØ¸öÊı
-	_ArraySort ( $arrayBrand, 1 ) ; Ê¹ÓÃ dualpivotsort(Ë«Ö§µãÅÅĞò)/quicksort(¿ìËÙÅÅĞò)/insertionsort(²åÈëÅÅĞò) Ëã·¨¶ÔÒ»¸öÒ»Î¬»òÕß¶şÎ¬Êı×éË÷ÒıÅÅĞò
+	Local $arrayBrand ; å“ç‰Œé›†åˆã€‚æ ¼å¼ çˆ±æ™®ç”Ÿ ã€‚æ¯è¡Œä¸€ä¸ªå“ç‰Œåè¯
+	_FileReadToArray ( $sFileBrands, $arrayBrand) ; è¯»å–"å“ç‰Œ"æ–‡ä»¶å†…å®¹åˆ°æ•°ç»„
+	_ArrayDelete ( $arrayBrand, 0 ) ; åˆ é™¤æ•°ç»„çš„æŒ‡å®šå…ƒç´ ï¼Œä»¥ä¾›ä¸‹é¢æ’åºä½¿ç”¨ã€‚0ç´¢å¼•ä¿å­˜æœ‰æ•ˆå…ƒç´ ä¸ªæ•°
+	_ArraySort ( $arrayBrand, 1 ) ; ä½¿ç”¨ dualpivotsort(åŒæ”¯ç‚¹æ’åº)/quicksort(å¿«é€Ÿæ’åº)/insertionsort(æ’å…¥æ’åº) ç®—æ³•å¯¹ä¸€ä¸ªä¸€ç»´æˆ–è€…äºŒç»´æ•°ç»„ç´¢å¼•æ’åº
 	
 	$nTmpCountProess = UBound($arrayBrand)
 
-	Local $oExcel = _ExcelBookNew(0) ; ´´½¨ĞÂ¹¤×÷²¾²¢·µ»ØÆä¶ÔÏó±êÊ¶·û
+	Local $oExcel = _ExcelBookNew(0) ; åˆ›å»ºæ–°å·¥ä½œç°¿å¹¶è¿”å›å…¶å¯¹è±¡æ ‡è¯†ç¬¦
 
 	For $i = 0 To UBound($arrayBrand) - 1
-		_ExcelSheetAddNew($oExcel, $arrayBrand[$i]) ; Ìí¼ÓĞÂµÄ¹¤×÷±íµ½ÎÄ¼ş, ²¢ÉèÖÃËüÃÇµÄÃû³Æ¡£ºóÀ´¾ÓÇ°
+		_ExcelSheetAddNew($oExcel, $arrayBrand[$i]) ; æ·»åŠ æ–°çš„å·¥ä½œè¡¨åˆ°æ–‡ä»¶, å¹¶è®¾ç½®å®ƒä»¬çš„åç§°ã€‚åæ¥å±…å‰
 		
 		$nTmpStepProess = $i
 		GUICtrlSetData($progressState, $nTmpStepProess/$nTmpCountProess*100)
 	Next
 
-	_ExcelSheetDelete($oExcel, "Sheet1")	; É¾³ıÄ¬ÈÏ´´½¨µÄ¹¤×÷±í
+	_ExcelSheetDelete($oExcel, "Sheet1")	; åˆ é™¤é»˜è®¤åˆ›å»ºçš„å·¥ä½œè¡¨
 	_ExcelSheetDelete($oExcel, "Sheet2")
 	_ExcelSheetDelete($oExcel, "Sheet3")
 
-	_ExcelBookSaveAs($oExcel, $sXlsPath, "xls", 0, 1)        ; ±£´æ-Áí´æÎª µ½×ÀÃæ
+	_ExcelBookSaveAs($oExcel, $sXlsPath, "xls", 0, 1)        ; ä¿å­˜-å¦å­˜ä¸º åˆ°æ¡Œé¢
 
-	_ExcelBookClose($oExcel) ; ×îºó, ¹Ø±ÕÎÄ¼ş
+	_ExcelBookClose($oExcel) ; æœ€å, å…³é—­æ–‡ä»¶
 	
 	GUICtrlSetState($btnRows, $GUI_ENABLE)
 	
@@ -167,32 +167,32 @@ Func _CreateSheets()
 	$nTmpCountProess = 0
 EndFunc
 
-;----------------------------------------- 2.ÌîĞ´¹¤×÷±í --------------------------------------------
+;----------------------------------------- 2.å¡«å†™å·¥ä½œè¡¨ --------------------------------------------
 Func _CreateRows()
 	GUICtrlSetState($btnRows, $GUI_DISABLE)
 	
 	GUICtrlSetState($progressState, $GUI_SHOW )
 	GUICtrlSetData($progressState, 1)
 	
-	Local $arrBrand ; Æ·ÅÆ¼¯ºÏ
-	_FileReadToArray ( $sFileBrands, $arrBrand) ; ¶ÁÈ¡ÎÄ¼şÄÚÈİµ½Êı×é
-	_ArrayDelete ( $arrBrand, 0 ) ; É¾³ıÊı×éµÄÖ¸¶¨ÔªËØ£¬ÒÔ¹©ÏÂÃæÅÅĞòÊ¹ÓÃ
-	_ArraySort ( $arrBrand, 1 ) ; quicksort(¿ìËÙÅÅĞò)
+	Local $arrBrand ; å“ç‰Œé›†åˆ
+	_FileReadToArray ( $sFileBrands, $arrBrand) ; è¯»å–æ–‡ä»¶å†…å®¹åˆ°æ•°ç»„
+	_ArrayDelete ( $arrBrand, 0 ) ; åˆ é™¤æ•°ç»„çš„æŒ‡å®šå…ƒç´ ï¼Œä»¥ä¾›ä¸‹é¢æ’åºä½¿ç”¨
+	_ArraySort ( $arrBrand, 1 ) ; quicksort(å¿«é€Ÿæ’åº)
 	
 	$nTmpCountProess = UBound($arrBrand)
 	
-	Local $arrBrandArg ; Æ·ÅÆ²ÎÊı¼¯ºÏ ¡£¸ñÊ½ ÏÔÊ¾Ğ¾Æ¬ ¡£Ã¿ĞĞÒ»¸ö²ÎÊıÃû´Ê
+	Local $arrBrandArg ; å“ç‰Œå‚æ•°é›†åˆ ã€‚æ ¼å¼ æ˜¾ç¤ºèŠ¯ç‰‡ ã€‚æ¯è¡Œä¸€ä¸ªå‚æ•°åè¯
 	_FileReadToArray ( $sFileBrandArgs, $arrBrandArg)
 	_ArrayDelete ( $arrBrandArg, 0 )
 	
-	Local $oExcel = _ExcelBookOpen($sXlsPath, 0) ; ´ò¿ªÒ»¸ö´æÔÚµÄxlsÎÄ¼ş
+	Local $oExcel = _ExcelBookOpen($sXlsPath, 0) ; æ‰“å¼€ä¸€ä¸ªå­˜åœ¨çš„xlsæ–‡ä»¶
 
 	For $i = 0 To UBound($arrBrand) - 1
-		_ExcelSheetActivate($oExcel, $arrBrand[$i]) ; Ñ¡ÔñÄ³¸ö¹¤×÷±í
-		_ExcelWriteArray($oExcel, 1, 1, $arrBrandArg, 0) ; Ğ´ÈëÒ»ĞĞ(ÎÄ¼ş£¬ĞĞ£¬ÁĞ£¬Êı×é£¬·½Ïò 0-Ë®Æ½-ĞĞ/1-´¹Ö±-ÁĞ)
+		_ExcelSheetActivate($oExcel, $arrBrand[$i]) ; é€‰æ‹©æŸä¸ªå·¥ä½œè¡¨
+		_ExcelWriteArray($oExcel, 1, 1, $arrBrandArg, 0) ; å†™å…¥ä¸€è¡Œ(æ–‡ä»¶ï¼Œè¡Œï¼Œåˆ—ï¼Œæ•°ç»„ï¼Œæ–¹å‘ 0-æ°´å¹³-è¡Œ/1-å‚ç›´-åˆ—)
 		
-		;ÉèÖÃÊôĞÔ¡£¶ÔÖ¸¶¨µÄĞĞÁĞÉúĞ§£¨ÎÄ¼ş£¬  ÆğÊ¼ĞĞ£¬ÆğÊ¼ÁĞ£¬½áÊøĞĞ£¬½áÊøÁĞ£¬   ×ÖÌå£¬     ´ÖÌå£¬ Ğ±Ìå£¬  ×ÖºÅ£¬ÏÂ»®Ïß£¬ÑÕÉ«£¬ĞĞ¸ß£¬ÁĞ¿í,   ¶ÔÆë£©
-		_ExcelFontSetProperties($oExcel, 1,    1,    1,   50, "Î¢ÈíÑÅºÚ", True, False, 13,  False,  5,  18,  10,  "center")
+		;è®¾ç½®å±æ€§ã€‚å¯¹æŒ‡å®šçš„è¡Œåˆ—ç”Ÿæ•ˆï¼ˆæ–‡ä»¶ï¼Œ  èµ·å§‹è¡Œï¼Œèµ·å§‹åˆ—ï¼Œç»“æŸè¡Œï¼Œç»“æŸåˆ—ï¼Œ   å­—ä½“ï¼Œ     ç²—ä½“ï¼Œ æ–œä½“ï¼Œ  å­—å·ï¼Œä¸‹åˆ’çº¿ï¼Œé¢œè‰²ï¼Œè¡Œé«˜ï¼Œåˆ—å®½,   å¯¹é½ï¼‰
+		_ExcelFontSetProperties($oExcel, 1,    1,    1,   50, "å¾®è½¯é›…é»‘", True, False, 13,  False,  5,  18,  10,  "center")
 		
 		$nTmpStepProess = $i
 		GUICtrlSetData($progressState, $nTmpStepProess/$nTmpCountProess*100)
@@ -207,20 +207,20 @@ Func _CreateRows()
 	$nTmpCountProess = 0
 EndFunc
 
-;----------------------------------------- 3.ÌîĞ´²É¼¯Êı¾İ --------------------------------------------
+;----------------------------------------- 3.å¡«å†™é‡‡é›†æ•°æ® --------------------------------------------
 Func _CreateCollections()
 	GUICtrlSetState($btnCollections, $GUI_DISABLE)
 	
 	GUICtrlSetState($progressState, $GUI_SHOW )
 	GUICtrlSetData($progressState, 1)
 	
-	;;;---------------------------------------------- Ò»¡£²É¼¯¹ı³Ì
+	;;;---------------------------------------------- ä¸€ã€‚é‡‡é›†è¿‡ç¨‹
 	
-	Local $aBrandArgArr ; Æ·ÅÆ²ÎÊı¼¯ºÏ
+	Local $aBrandArgArr ; å“ç‰Œå‚æ•°é›†åˆ
 	_FileReadToArray ( $sFileBrandArgs, $aBrandArgArr)
 	_ArrayDelete ( $aBrandArgArr, 0 )
 	
-	Local $aCollectArr	; Æ·ÅÆ ²É¼¯²ÎÊı¼¯ºÏ¡£²ÎÊı¸ñÊ½ http://detail.zol.com.cn/projector/benq/|Ã÷»ù £¬Ã¿ĞĞÒ»Ìõ²ÎÊı
+	Local $aCollectArr	; å“ç‰Œ é‡‡é›†å‚æ•°é›†åˆã€‚å‚æ•°æ ¼å¼ http://detail.zol.com.cn/projector/benq/|æ˜åŸº ï¼Œæ¯è¡Œä¸€æ¡å‚æ•°
 	_FileReadToArray ( $sFileCollectArgs, $aCollectArr)
 	_ArrayDelete ( $aCollectArr, 0 )
 	
@@ -229,59 +229,59 @@ Func _CreateCollections()
 	Local $xmlhttp = ObjCreate("MSXML2.XMLHTTP.3.0")
 	
 	For $i = 0 To UBound($aCollectArr) - 1
-		Local $aCollectUrlAndName = StringSplit($aCollectArr[$i], "|") ; ²ğ·Ö³öÒ»Ò»¶ÔÓ¦µÄ URLºÍÆ·ÅÆ ¡£0Ë÷Òı±£´æÓĞĞ§ÔªËØÊıÁ¿
-		ConsoleWrite("A,Æ·ÅÆºÍÁ´½Ó£º" & $aCollectUrlAndName[1] & " - " & $aCollectUrlAndName[2] & @CRLF)
+		Local $aCollectUrlAndName = StringSplit($aCollectArr[$i], "|") ; æ‹†åˆ†å‡ºä¸€ä¸€å¯¹åº”çš„ URLå’Œå“ç‰Œ ã€‚0ç´¢å¼•ä¿å­˜æœ‰æ•ˆå…ƒç´ æ•°é‡
+		ConsoleWrite("A,å“ç‰Œå’Œé“¾æ¥ï¼š" & $aCollectUrlAndName[1] & " - " & $aCollectUrlAndName[2] & @CRLF)
 		
-		$xmlhttp.open("GET", $aCollectUrlAndName[1], False)	                                 ; 1.´ò¿ªURL£¬µÃµ½Æ·ÅÆµÄÈ«²¿ĞÍºÅÁĞ±íÒ³Ãæ
+		$xmlhttp.open("GET", $aCollectUrlAndName[1], False)	                                 ; 1.æ‰“å¼€URLï¼Œå¾—åˆ°å“ç‰Œçš„å…¨éƒ¨å‹å·åˆ—è¡¨é¡µé¢
 		$xmlhttp.send()
 		
-		Local $body = BinaryToString($xmlhttp.responseBody, 1)			                     ; 2.»º´æÕû¸öÒ³Ãæ
+		Local $body = BinaryToString($xmlhttp.responseBody, 1)			                     ; 2.ç¼“å­˜æ•´ä¸ªé¡µé¢
 
-		Local $more = StringRegExp($body, 'a class="more" href="(.*?)" target="_blank"', 3)	 ; 3.ÌáÈ¡ È«²¿ĞÍºÅµÄ"¸ü¶à²ÎÊı"Ò³ÃæURL
-		ConsoleWrite(@TAB & "B,ÏêÏ¸Ò³ÃæÊıÁ¿£º" & UBound($more) - 1 & @CRLF)
+		Local $more = StringRegExp($body, 'a class="more" href="(.*?)" target="_blank"', 3)	 ; 3.æå– å…¨éƒ¨å‹å·çš„"æ›´å¤šå‚æ•°"é¡µé¢URL
+		ConsoleWrite(@TAB & "B,è¯¦ç»†é¡µé¢æ•°é‡ï¼š" & UBound($more) - 1 & @CRLF)
 		
-		For $j = 0 To UBound($more) - 1	                                                     ; 4.±éÀú Ã¿¸öĞÍºÅµÄÏêÏ¸Ò³ÃæURL
-			Local $morep = "http://detail.zol.com.cn" & $more[$j] ; Æ´½ÓÂ·¾¶
-			ConsoleWrite(@TAB & @TAB & "C,ÏêÏ¸Ò³Ãæ£º" & $morep & @CRLF)
+		For $j = 0 To UBound($more) - 1	                                                     ; 4.éå† æ¯ä¸ªå‹å·çš„è¯¦ç»†é¡µé¢URL
+			Local $morep = "http://detail.zol.com.cn" & $more[$j] ; æ‹¼æ¥è·¯å¾„
+			ConsoleWrite(@TAB & @TAB & "C,è¯¦ç»†é¡µé¢ï¼š" & $morep & @CRLF)
 			
-			$xmlhttp.open("GET", $morep, False)	                                             ; 5.½øÈëµ¥¸öĞÍºÅÒ³Ãæ
+			$xmlhttp.open("GET", $morep, False)	                                             ; 5.è¿›å…¥å•ä¸ªå‹å·é¡µé¢
 			$xmlhttp.send()
 			
 			$body = BinaryToString($xmlhttp.responseBody, 1)
 			$body = StringStripCR($body)
 			$body = StringStripWS($body, 8)
 			
-			Local $title = StringRegExp($body, 'varproName="(.*?)";', 3)                              ; 1> ´ÓÒ³ÃæÖĞÌáÈ¡¡°ĞÍºÅ¡±
+			Local $title = StringRegExp($body, 'varproName="(.*?)";', 3)                              ; 1> ä»é¡µé¢ä¸­æå–â€œå‹å·â€
 			If IsArray($title) Then
-				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "²É¼¯²ÎÊı.ini", $title[0], "ĞÍºÅ", $title[0] )    ; 2> ±£´æµ½iniÎÄ¼ş¡£ÎÄ¼şÃû¶¯Ì¬£¬Ò»¸öÆ·ÅÆ¶ÔÓ¦Ò»¸öÎÄ¼ş
-				ConsoleWrite(@TAB & @TAB & @TAB & "D£¬ĞÍºÅ£º" & $title[0] & @CRLF)
+				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "é‡‡é›†å‚æ•°.ini", $title[0], "å‹å·", $title[0] )    ; 2> ä¿å­˜åˆ°iniæ–‡ä»¶ã€‚æ–‡ä»¶ååŠ¨æ€ï¼Œä¸€ä¸ªå“ç‰Œå¯¹åº”ä¸€ä¸ªæ–‡ä»¶
+				ConsoleWrite(@TAB & @TAB & @TAB & "Dï¼Œå‹å·ï¼š" & $title[0] & @CRLF)
 			Else
-				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "²É¼¯²ÎÊı.ini", $title[0], "ĞÍºÅ", "" )
-				ConsoleWrite(@TAB & @TAB & @TAB & "D£¬ĞÍºÅ£º" & "~~~~~~~~~~~~~~~~~~~~~" & @CRLF)
+				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "é‡‡é›†å‚æ•°.ini", $title[0], "å‹å·", "" )
+				ConsoleWrite(@TAB & @TAB & @TAB & "Dï¼Œå‹å·ï¼š" & "~~~~~~~~~~~~~~~~~~~~~" & @CRLF)
 			EndIf
 			
-			Local $target = StringRegExp($body, '<bclass="price-type">(.*?)<', 3)                     ; 3> ´ÓÒ³ÃæÖĞÌáÈ¡¡°¼Û¸ñ¡±
+			Local $target = StringRegExp($body, '<bclass="price-type">(.*?)<', 3)                     ; 3> ä»é¡µé¢ä¸­æå–â€œä»·æ ¼â€
 			If IsArray($target) Then
-				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "²É¼¯²ÎÊı.ini", $title[0], "²Î¿¼¼Û", $target[0] ) ; Èç¹ûiniÎÄ¼ş²»´æÔÚÔò´´½¨£¬ÒÑ´æÔÚÔò¶ÁĞ´
-				ConsoleWrite(@TAB & @TAB & @TAB & "D£¬²Î¿¼¼Û£º" & $target[0] & @CRLF)
+				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "é‡‡é›†å‚æ•°.ini", $title[0], "å‚è€ƒä»·", $target[0] ) ; å¦‚æœiniæ–‡ä»¶ä¸å­˜åœ¨åˆ™åˆ›å»ºï¼Œå·²å­˜åœ¨åˆ™è¯»å†™
+				ConsoleWrite(@TAB & @TAB & @TAB & "Dï¼Œå‚è€ƒä»·ï¼š" & $target[0] & @CRLF)
 			Else
-				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "²É¼¯²ÎÊı.ini", $title[0], "²Î¿¼¼Û", "" )
-				ConsoleWrite(@TAB & @TAB & @TAB & "D£¬²Î¿¼¼Û£º" & "~~~~~~~~~~~~~~~~~~~~~" & @CRLF)
+				IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "é‡‡é›†å‚æ•°.ini", $title[0], "å‚è€ƒä»·", "" )
+				ConsoleWrite(@TAB & @TAB & @TAB & "Dï¼Œå‚è€ƒä»·ï¼š" & "~~~~~~~~~~~~~~~~~~~~~" & @CRLF)
 			EndIf
 			
-			;-----------------------------±éÀú²É¼¯
-			For $k = 2 To UBound($aBrandArgArr)-1                                                     ; 4> ºóÃæµÄ²ÎÊıÔÚÍøÒ³ÖĞ»ù±¾¸ñÊ½ÏàÍ¬£¬ÅúÁ¿ÌáÈ¡
+			;-----------------------------éå†é‡‡é›†
+			For $k = 2 To UBound($aBrandArgArr)-1                                                     ; 4> åé¢çš„å‚æ•°åœ¨ç½‘é¡µä¸­åŸºæœ¬æ ¼å¼ç›¸åŒï¼Œæ‰¹é‡æå–
 				;$target = StringRegExp($body, $aArgArray[$k] & "<[\s\S]+?>([^<]+?)</span", 3)
-				$target = StringRegExp($body, '(?s)' & $aBrandArgArr[$k] & '<.+?">(.+?)</', 1) ; ÕıÔòÆ¥ÅäÃ¿¸ö²É¼¯²ÎÊı~~ ±¾³ÌĞòÖĞÕıÔò»ù±¾¶¼ÓÉ afan Ìá¹©
+				$target = StringRegExp($body, '(?s)' & $aBrandArgArr[$k] & '<.+?">(.+?)</', 1) ; æ­£åˆ™åŒ¹é…æ¯ä¸ªé‡‡é›†å‚æ•°~~ æœ¬ç¨‹åºä¸­æ­£åˆ™åŸºæœ¬éƒ½ç”± afan æä¾›
 				If IsArray($target) Then
-					Local $str = StringRegExpReplace($target[0], '<br/>', '|') ; ÕıÔòÌæ»»ÎŞÓÃ×Ö·û
+					Local $str = StringRegExpReplace($target[0], '<br/>', '|') ; æ­£åˆ™æ›¿æ¢æ— ç”¨å­—ç¬¦
 					$str = StringRegExpReplace($str, '<.*?>', '')
 					$str = StringReplace($str, "&nbsp;", "")
-					IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "²É¼¯²ÎÊı.ini", $title[0], $aBrandArgArr[$k], $str )
-					;ConsoleWrite(@TAB & @TAB & @TAB & "D£¬" & $aArgArray[$k] & "£º" & $str & @CRLF)
+					IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "é‡‡é›†å‚æ•°.ini", $title[0], $aBrandArgArr[$k], $str )
+					;ConsoleWrite(@TAB & @TAB & @TAB & "Dï¼Œ" & $aArgArray[$k] & "ï¼š" & $str & @CRLF)
 				Else
-					IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "²É¼¯²ÎÊı.ini", $title[0], $aBrandArgArr[$k], "" )
-					;ConsoleWrite(@TAB & @TAB & @TAB & "D£¬" & $aArgArray[$k] & "£º" & "~~~~~~~~~~~~~~~~~~~~~" & @CRLF)
+					IniWrite( $sRootPath & "\" & $aCollectUrlAndName[2] & "é‡‡é›†å‚æ•°.ini", $title[0], $aBrandArgArr[$k], "" )
+					;ConsoleWrite(@TAB & @TAB & @TAB & "Dï¼Œ" & $aArgArray[$k] & "ï¼š" & "~~~~~~~~~~~~~~~~~~~~~" & @CRLF)
 				EndIf
 			Next
 		Next
@@ -300,49 +300,49 @@ Func _CreateCollections()
 	$nTmpCountProess = 0
 EndFunc
 
-;----------------------------------------- 4.±£´æ»º´æÊı¾İ-²É¼¯½á¹û --------------------------------------------
+;----------------------------------------- 4.ä¿å­˜ç¼“å­˜æ•°æ®-é‡‡é›†ç»“æœ --------------------------------------------
 Func _WriteCaches()
 	GUICtrlSetState($btnCollectionsToXls, $GUI_DISABLE)
 	
 	GUICtrlSetState($progressState, $GUI_SHOW )
 	GUICtrlSetData($progressState, 1)
 	
-	;;;---------------------------------------------- ¶ş¡£´æ´¢¹ı³Ì
-	; ÏÈ»º´æµ½ ini µÄÔµ¹Ê£º
-	; Ö±½Ó´ÓÍøÒ³²É¼¯µ½ºóĞ´Èë xls µÄ»°£¬
-	; Ê×ÏÈÒªÈ·¶¨¹¤×÷±í£¬»¹ÒªÆ¥ÅäÁĞ£¬Æ¥ÅäÁĞÊ±Ö»ÄÜ¸ù¾İÁĞµÄË÷ÒıÎ»ÖÃ
-	; ÊÜÖÆÓÚÍøÂç¡¢ÎÄ¼şÕ¼ÓÃµÈËÙ¶È»á±È½ÏÂı
-	; ¸öÈË¸Ğ¾õ²É¼¯µ½ini£¬×îºóÒ»´ÎÖ´ĞĞĞ´Èëxls¡£ÕâÑù¿É¿ØĞÔºÃ£¬Ò²»á±È½Ï¿ì :)
+	;;;---------------------------------------------- äºŒã€‚å­˜å‚¨è¿‡ç¨‹
+	; å…ˆç¼“å­˜åˆ° ini çš„ç¼˜æ•…ï¼š
+	; ç›´æ¥ä»ç½‘é¡µé‡‡é›†åˆ°åå†™å…¥ xls çš„è¯ï¼Œ
+	; é¦–å…ˆè¦ç¡®å®šå·¥ä½œè¡¨ï¼Œè¿˜è¦åŒ¹é…åˆ—ï¼ŒåŒ¹é…åˆ—æ—¶åªèƒ½æ ¹æ®åˆ—çš„ç´¢å¼•ä½ç½®
+	; å—åˆ¶äºç½‘ç»œã€æ–‡ä»¶å ç”¨ç­‰é€Ÿåº¦ä¼šæ¯”è¾ƒæ…¢
+	; ä¸ªäººæ„Ÿè§‰é‡‡é›†åˆ°iniï¼Œæœ€åä¸€æ¬¡æ‰§è¡Œå†™å…¥xlsã€‚è¿™æ ·å¯æ§æ€§å¥½ï¼Œä¹Ÿä¼šæ¯”è¾ƒå¿« :)
 	
-	Local $arrBrand ; Æ·ÅÆ¼¯ºÏ
-	_FileReadToArray ( $sFileBrands, $arrBrand) ; ¶ÁÈ¡ÎÄ¼şÄÚÈİµ½Êı×é
-	_ArrayDelete ( $arrBrand, 0 ) ; É¾³ıÊı×éµÄÖ¸¶¨ÔªËØ£¬ÒÔ¹©ÏÂÃæÅÅĞòÊ¹ÓÃ
-	_ArraySort ( $arrBrand, 1 ) ; quicksort(¿ìËÙÅÅĞò)
+	Local $arrBrand ; å“ç‰Œé›†åˆ
+	_FileReadToArray ( $sFileBrands, $arrBrand) ; è¯»å–æ–‡ä»¶å†…å®¹åˆ°æ•°ç»„
+	_ArrayDelete ( $arrBrand, 0 ) ; åˆ é™¤æ•°ç»„çš„æŒ‡å®šå…ƒç´ ï¼Œä»¥ä¾›ä¸‹é¢æ’åºä½¿ç”¨
+	_ArraySort ( $arrBrand, 1 ) ; quicksort(å¿«é€Ÿæ’åº)
 	
 	$nTmpCountProess = UBound($arrBrand)
 	
-	Local $oExcel = _ExcelBookOpen($sXlsPath, 0) ; ´ò¿ªÒ»¸ö´æÔÚµÄxlsÎÄ¼ş
+	Local $oExcel = _ExcelBookOpen($sXlsPath, 0) ; æ‰“å¼€ä¸€ä¸ªå­˜åœ¨çš„xlsæ–‡ä»¶
 	
-	For $m = 0 To UBound($arrBrand) - 1 ; ±éÀúÆ·ÅÆ
-		_ExcelSheetActivate( $oExcel, $arrBrand[$m] )                                                    ; 1.¸ù¾İÆ·ÅÆ£¬Ñ¡ÔñÄ³¸ö¹¤×÷±í
-		ConsoleWrite("A¡£Æ·ÅÆ£º" & $arrBrand[$m] & @CRLF)
+	For $m = 0 To UBound($arrBrand) - 1 ; éå†å“ç‰Œ
+		_ExcelSheetActivate( $oExcel, $arrBrand[$m] )                                                    ; 1.æ ¹æ®å“ç‰Œï¼Œé€‰æ‹©æŸä¸ªå·¥ä½œè¡¨
+		ConsoleWrite("Aã€‚å“ç‰Œï¼š" & $arrBrand[$m] & @CRLF)
 		
-		Local $arrModelNams = IniReadSectionNames( $sRootPath & "\" & $arrBrand[$m] & "²É¼¯²ÎÊı.ini" )   ; 2.¶ÁÈ¡Ò»¸öÆ·ÅÆÈ«²¿µÄĞÍºÅ×Ö¶Î
+		Local $arrModelNams = IniReadSectionNames( $sRootPath & "\" & $arrBrand[$m] & "é‡‡é›†å‚æ•°.ini" )   ; 2.è¯»å–ä¸€ä¸ªå“ç‰Œå…¨éƒ¨çš„å‹å·å­—æ®µ
 		If @error = 0 Then
-			ConsoleWrite(@TAB & "B¡£ĞÍºÅÊıÁ¿£º" & $arrModelNams[0] & @CRLF)
+			ConsoleWrite(@TAB & "Bã€‚å‹å·æ•°é‡ï¼š" & $arrModelNams[0] & @CRLF)
 			
-			For $n = 1 To $arrModelNams[0] ; ±éÀúĞÍºÅ×Ö¶Î¡£0Ë÷Òı±£´æ¿ÉÓÃÔªËØÊıÁ¿¡£ÓĞĞ§ÔªËØ´Ó1¿ªÊ¼
-				Local $arrModelKV = IniReadSection ( $sRootPath & "\" & $arrBrand[$m] & "²É¼¯²ÎÊı.ini", $arrModelNams[$n] ) ; 3.¶ÁÈ¡Ò»¸ö×Ö¶ÎÏÂ£¬È«²¿µÄ¼üÖµ¶Ô£¨²ÎÊı=Êı¾İ£©¡£[0][0]ÎªÓĞĞ§¼üÖµ¶ÔÊıÁ¿
+			For $n = 1 To $arrModelNams[0] ; éå†å‹å·å­—æ®µã€‚0ç´¢å¼•ä¿å­˜å¯ç”¨å…ƒç´ æ•°é‡ã€‚æœ‰æ•ˆå…ƒç´ ä»1å¼€å§‹
+				Local $arrModelKV = IniReadSection ( $sRootPath & "\" & $arrBrand[$m] & "é‡‡é›†å‚æ•°.ini", $arrModelNams[$n] ) ; 3.è¯»å–ä¸€ä¸ªå­—æ®µä¸‹ï¼Œå…¨éƒ¨çš„é”®å€¼å¯¹ï¼ˆå‚æ•°=æ•°æ®ï¼‰ã€‚[0][0]ä¸ºæœ‰æ•ˆé”®å€¼å¯¹æ•°é‡
 				If @error = 0 Then
-					;ConsoleWrite(@TAB & @TAB & "C¡£²ÎÊıÊıÁ¿£º" & $arrModelKV[0][0] & @CRLF)
+					;ConsoleWrite(@TAB & @TAB & "Cã€‚å‚æ•°æ•°é‡ï¼š" & $arrModelKV[0][0] & @CRLF)
 					
-					Local $aCacheArray[ $arrModelKV[0][0] ] ; »º´æÊı×é£¬³¤¶ÈÎªÓĞĞ§¼üÖµ¶ÔÊıÁ¿
-					For $p = 1 To $arrModelKV[0][0]     ; ±éÀúÃ¿ĞĞ ¼üÖµ¶Ô
-						$aCacheArray[$p - 1] = $arrModelKV[$p][1]                                         ; 4.¶ÁÈ¡Ò»Ò»¶ÔÓ¦µÄ²É¼¯½á¹û»º´æµ½Êı×é¡£[n][0]Îª¹Ø¼ü×Ö£¬[n][1]ÎªÖµ
-						;ConsoleWrite(@TAB & @TAB & @TAB & "D¡£²ÎÊı£º" & $arrModelKV[$p][0] & "=" & $arrModelKV[$p][1] & @CRLF)
+					Local $aCacheArray[ $arrModelKV[0][0] ] ; ç¼“å­˜æ•°ç»„ï¼Œé•¿åº¦ä¸ºæœ‰æ•ˆé”®å€¼å¯¹æ•°é‡
+					For $p = 1 To $arrModelKV[0][0]     ; éå†æ¯è¡Œ é”®å€¼å¯¹
+						$aCacheArray[$p - 1] = $arrModelKV[$p][1]                                         ; 4.è¯»å–ä¸€ä¸€å¯¹åº”çš„é‡‡é›†ç»“æœç¼“å­˜åˆ°æ•°ç»„ã€‚[n][0]ä¸ºå…³é”®å­—ï¼Œ[n][1]ä¸ºå€¼
+						;ConsoleWrite(@TAB & @TAB & @TAB & "Dã€‚å‚æ•°ï¼š" & $arrModelKV[$p][0] & "=" & $arrModelKV[$p][1] & @CRLF)
 					Next
 					
-					_ExcelWriteArray($oExcel, $n + 1, 1, $aCacheArray)                                    ; 5.Ğ´Ò»Î¬Êı×éµ½xlsµÄÒ»ĞĞ
+					_ExcelWriteArray($oExcel, $n + 1, 1, $aCacheArray)                                    ; 5.å†™ä¸€ç»´æ•°ç»„åˆ°xlsçš„ä¸€è¡Œ
 				EndIf
 			Next
 		EndIf
@@ -351,7 +351,7 @@ Func _WriteCaches()
 		GUICtrlSetData($progressState, $nTmpStepProess/$nTmpCountProess*100)
 	Next
 	
-	For $q = 0 To UBound($arrBrand) - 1 ; ±éÀúÆ·ÅÆ
+	For $q = 0 To UBound($arrBrand) - 1 ; éå†å“ç‰Œ
 		$oExcel.worksheets($q + 1).Cells.EntireColumn.AutoFit()
 	Next
 
@@ -362,40 +362,40 @@ Func _WriteCaches()
 	$nTmpCountProess = 0
 EndFunc
 
-;----------------------------------------- ²é¿´È«²¿Æ·ÅÆ --------------------------------------------
+;----------------------------------------- æŸ¥çœ‹å…¨éƒ¨å“ç‰Œ --------------------------------------------
 Func _ShowBrands()
 
 	Local $aRetArray
 	_FileReadToArray ( $sFileBrands, $aRetArray)
 	_ArrayDelete ( $aRetArray, 0 )
 	_ArraySort ( $aRetArray, 1 )
-	_ArrayDisplay ( $aRetArray, "Í¶Ó°ÒÇÆ·ÅÆ", Default, 32 )
+	_ArrayDisplay ( $aRetArray, "æŠ•å½±ä»ªå“ç‰Œ", Default, 32 )
 
 EndFunc
 
-;----------------------------------------- ²é¿´Æ·ÅÆ²ÎÊı --------------------------------------------
+;----------------------------------------- æŸ¥çœ‹å“ç‰Œå‚æ•° --------------------------------------------
 Func _ShowArgs()
 
 	Local $aRetArray
 	_FileReadToArray ( $sFileBrandArgs, $aRetArray)
 	_ArrayDelete ( $aRetArray, 0 )
 	_ArraySort ( $aRetArray, 1 )
-	_ArrayDisplay ( $aRetArray, "Æ·ÅÆ²ÎÊı", Default, 32 )
+	_ArrayDisplay ( $aRetArray, "å“ç‰Œå‚æ•°", Default, 32 )
 
 EndFunc
 
-;----------------------------------------- ²é¿´²É¼¯²ÎÊı --------------------------------------------
+;----------------------------------------- æŸ¥çœ‹é‡‡é›†å‚æ•° --------------------------------------------
 Func _ShowCollections()
 
 	Local $aRetArray
 	_FileReadToArray ( $sFileCollectArgs, $aRetArray)
 	_ArrayDelete ( $aRetArray, 0 )
 	_ArraySort ( $aRetArray, 1 )
-	_ArrayDisplay ( $aRetArray, "²É¼¯²ÎÊı", Default, 32 )
+	_ArrayDisplay ( $aRetArray, "é‡‡é›†å‚æ•°", Default, 32 )
 
 EndFunc
 
-;----------------------------------------- ²é¿´²É¼¯½á¹û --------------------------------------------
+;----------------------------------------- æŸ¥çœ‹é‡‡é›†ç»“æœ --------------------------------------------
 Func _ShowCache()
 	ShellExecute('explorer', $sRootPath )
 EndFunc
